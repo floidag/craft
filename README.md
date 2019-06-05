@@ -1,5 +1,7 @@
 <p align="center"><a href="https://craftcms.com/" target="_blank"><img width="312" height="90" src="https://craftcms.com/craftcms.svg" alt="Craft CMS"></a></p>
 
+Hi there
+
 ## About Craft CMS 
 
 Craft is a flexible and scalable CMS for creating bespoke digital experiences on the web and beyond.
