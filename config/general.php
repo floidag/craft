@@ -32,6 +32,7 @@ return [
     'dev' => [
         // Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
         'devMode' => true,
+        'assets' => file_get_contents('http://localhost:8282/assets.twig'),
     ],
 
     // Staging environment settings
@@ -44,5 +45,6 @@ return [
     'production' => [
         // Set this to `false` to prevent administrative changes from being made on production
         'allowAdminChanges' => true,
+        'assets' => file_get_contents(__DIR__ . '/../web/assets/assets.twig'),
     ],
 ];
